@@ -23,3 +23,13 @@ h2{
 #verde{
     color:green;
 }
+
+.seletores {
+    padding: 1° topo(top), 2° lado direito(right), 3° parte inferior(bottom), 4° lado esquerdo(left);
+}
+/* .vermelha{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    background: red;
+} */
