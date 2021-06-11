@@ -30,9 +30,17 @@ h2{
     padding: 1° para todos os lados(all);
 
 }
-/* .vermelha{
-    height: 100px;
-    width: 100px;
-    padding: 20px;
+.vermelha{
+    height: 500px;
+    width: 500px;
+    padding: 0;
+    margin: 100px auto;
     background: red;
-} */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.branca{
+    background: white;
+}
