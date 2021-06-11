@@ -10,3 +10,15 @@ body{
     background: rgb(119, 119, 119);
     background: rgba(0,0,0,0.5); */
 }
+
+h2{
+    color: blue;
+}
+
+.vermelho{
+    color: red;
+}
+
+#verde{
+    color:green;
+}
