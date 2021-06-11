@@ -26,6 +26,9 @@ h2{
 
 .seletores {
     padding: 1° topo(top), 2° lado direito(right), 3° parte inferior(bottom), 4° lado esquerdo(left);
+    padding: 1° topo(top) e parte inferior(bottom), 2° lado esquerdo(left) e lado direito(right);
+    padding: 1° para todos os lados(all);
+
 }
 /* .vermelha{
     height: 100px;
