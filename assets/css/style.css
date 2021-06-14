@@ -1,46 +1,53 @@
-/* Comentário em css */
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
-body{
-    background: gray;
-    /* background: #c2c2c2;
-    background: rgb(119, 119, 119);
-    background: rgba(0,0,0,0.5); */
+
+/* body {
+    background: #c2c2c2;
 }
 
-h2{
+h2 {
     color: blue;
 }
 
-.vermelho{
+.vermelho {
     color: red;
 }
 
-#verde{
-    color:green;
+#verde {
+    color: green;
 }
 
-.seletores {
-    padding: 1° topo(top), 2° lado direito(right), 3° parte inferior(bottom), 4° lado esquerdo(left);
-    padding: 1° topo(top) e parte inferior(bottom), 2° lado esquerdo(left) e lado direito(right);
-    padding: 1° para todos os lados(all);
+div>h2 {
+    color: black;
+} */
 
-}
-.vermelha{
-    height: 500px;
-    width: 500px;
-    padding: 0;
-    margin: 100px auto;
+
+/* comentario em css */
+
+
+/* .seletores {
+    padding: 1Âº topo(top) e lado direito(right) e parte inferior(bottom) e lado esquerdo(left); // um parametro ele aplica nos 4 lados
+    padding: 1Âº topo(top) 2Âº lado direito(right) 3Âº parte inferior(bottom) 4Âº lado esquerdo(left); // quatro parametro ele aplica individualmente
+    padding: 1Âº topo(top) e parte inferior(bottom) 2Âº lado esquerdo(left) e lado direito(right); // dois paremetros ele aplica em cima+embaixo e lado esquerdo+lado direito
+} */
+
+.div-vermelha {
+    min-height: 150px;
+    padding: 25px;
     background: red;
+    margin: 100px auto;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
-.branca{
-    background: white;
+
+.div-branca {
+    background: #fff;
+    height: 100px;
+    width: 100px;
 }
