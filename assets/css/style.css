@@ -69,6 +69,14 @@ h1, h2, h3{
     font-weight: 700;
 }
 
+.botao{
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #8f3faf;
+    font-size: .9em;
+    border-radius: 3px;
+}
 /*Navegação*/
 
 nav{
@@ -130,4 +138,26 @@ header{
 
 header p{
     margin-bottom: 2em;
+}
+
+/* Sobre */
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items :center;
+    text-align:center;
+    padding: 0 20px 20px;
+    background-color: #8f3faf;
+    color: #f1f1f1;
+}
+
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre .botao{
+    background-color: #f1f1f1;
+    color: #4d4d4d;
 }
