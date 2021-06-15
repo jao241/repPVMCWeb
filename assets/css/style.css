@@ -161,3 +161,22 @@ header p{
     background-color: #f1f1f1;
     color: #4d4d4d;
 }
+
+/* Serviços */
+
+#servicos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+#servicos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    margin-top: 30px;
+}  
+
+/*  */
