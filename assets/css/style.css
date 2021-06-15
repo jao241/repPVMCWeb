@@ -223,7 +223,7 @@ header p{
     flex-direction: row;
 }
 
-#lado-a-lado > div{
+#lado-a-lado > div > p > a{
     margin-left: 20px;
 }
 
@@ -234,4 +234,75 @@ footer {
     padding: 10px;
     background-color: #4d4d4d;
     color: #f1f1f1;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+    /* Navegação */
+
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 75%;        
+    }
+
+    /* Cabecalho */
+
+    header{
+        height: 500px;
+        height: 50vh;
+        justify-content: center;
+    }
+
+    /* Sobre */
+
+    #sobre{
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    /* Serviços */
+
+    #servicos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #servicos h2{
+        text-align:center;
+        width: 100%;
+    }
+
+    #servicos div{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    /* Portfólio */
+
+    #portfolio{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #portfolio h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #portfolio img{
+        width: 33.33%;
+    }
+
 }
