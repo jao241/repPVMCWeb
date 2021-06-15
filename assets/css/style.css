@@ -1,3 +1,5 @@
+/*
+
 * {
     padding: 0;
     margin: 0;
@@ -23,17 +25,17 @@ h2 {
 
 div>h2 {
     color: black;
-} */
+} 
 
 
-/* comentario em css */
+/* comentario em css 
 
 
 /* .seletores {
     padding: 1Âº topo(top) e lado direito(right) e parte inferior(bottom) e lado esquerdo(left); // um parametro ele aplica nos 4 lados
     padding: 1Âº topo(top) 2Âº lado direito(right) 3Âº parte inferior(bottom) 4Âº lado esquerdo(left); // quatro parametro ele aplica individualmente
     padding: 1Âº topo(top) e parte inferior(bottom) 2Âº lado esquerdo(left) e lado direito(right); // dois paremetros ele aplica em cima+embaixo e lado esquerdo+lado direito
-} */
+} 
 
 .div-vermelha {
     min-height: 150px;
@@ -50,4 +52,11 @@ div>h2 {
     background: #fff;
     height: 100px;
     width: 100px;
+}
+
+*/
+
+body{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #4d4d4d;
 }
