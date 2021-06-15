@@ -224,7 +224,7 @@ header p{
 }
 
 #lado-a-lado > div > p > a{
-    margin-left: 20px;
+    margin: auto 10px;
 }
 
 /* Footer */
