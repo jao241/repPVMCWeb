@@ -56,7 +56,16 @@ div>h2 {
 
 */
 
+/*Geral*/
+
 body{
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     color: #4d4d4d;
 }
+
+h1, h2, h3{
+    margin: 0;
+    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
