@@ -152,11 +152,13 @@ header > a:hover{
 
 #lado-a-lado{
     flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
 }
 
-#lado-a-lado > div > p > a{
+/* #lado-a-lado > div > p > a{
     margin: auto 10px;
-}
+} */
 
 /* Footer */
 
