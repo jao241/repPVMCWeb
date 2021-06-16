@@ -79,15 +79,18 @@ h1, h2, h3{
 }
 /*Navegação*/
 
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 nav{
     /*
     display: -webkit-box;display: -ms-flexbox;display: flex; 
     Criado inserindo o display: flex; no autoprefixer
     ele gera o primeiro display que é compatível com diferentes navegadores.
     */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #4d4d4d;
 }
 
@@ -102,9 +105,6 @@ nav > a {
 nav ul{
     list-style: none;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
 }
 
@@ -137,9 +137,6 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     color: #f1f1f1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     padding: 20px;
 }
@@ -151,9 +148,6 @@ header p{
 /* Sobre */
 
 #sobre{
-    display: flex;
-    flex-direction: column;
-    align-items :center;
     text-align:center;
     padding: 0 20px 20px;
     background-color: #8f3faf;
@@ -178,15 +172,9 @@ header p{
 
 #servicos {
     padding: 20px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
 }
 
 #servicos div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align:center;
     margin-top: 30px;
 }  
@@ -194,9 +182,6 @@ header p{
 /* Portfólio */
 
 #portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 20px;
 }
 
@@ -211,15 +196,11 @@ header p{
 /* Contato */
 
 #contato {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     padding: 20px;
 }
 
 #lado-a-lado{
-    display: flex;
     flex-direction: row;
 }
 
