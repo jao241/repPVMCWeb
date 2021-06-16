@@ -119,14 +119,13 @@ nav ul li a{
     width:100%;
     text-decoration: none;
     color: #f1f1f1;
-    transition: background-color .7s;
-    transition: color .5s;
 }
 
 /* Adicionei um hover pra criar uma animação quando passar o mouse em cima de um item do menu */
 nav ul a:hover{
     background-color: white;
     color: black;
+    transition: background-color, color .7s;
 }
 
 /*Cabeçalho*/
@@ -145,6 +144,11 @@ header p{
     margin-bottom: 2em;
 }
 
+header > a:hover{
+    background-color: white;
+    color: #8f3faf;
+    transition: background-color, color .5s;
+}
 /* Sobre */
 
 #sobre{
@@ -166,6 +170,12 @@ header p{
 #sobre .botao{
     background-color: #f1f1f1;
     color: #4d4d4d;
+}
+
+#sobre .botao:hover{
+    background-color: #4d4d4d;
+    color: white;
+    transition: background-color, color .5s;
 }
 
 /* Serviços */
