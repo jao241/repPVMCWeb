@@ -179,7 +179,7 @@ footer {
 
     nav ul{
         flex-direction: row;
-        width: 75%;        
+        width: 100%;        
     }
 
     /* Cabecalho */
